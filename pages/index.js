@@ -17,29 +17,32 @@ export default function Home() {
         </h1>
 
         <div className='title'>
-          <h2>
-            Title
-          </h2>
           <form>
-            <input type="text"></input>
+            <label>
+              Title:
+            </label>
+            <input type="text" name="title" />
+            <button type="submit">Save</button>
           </form>
         </div>
 
         <div className="notes">
-        <h2>
-          Notes
-        </h2>
           <form>
-            <input type="text"></input>
+            <label>
+              Notes:
+            </label>
+            <input type="text" name="notes" />
+            <button type="submit">Save</button>
           </form>
         </div>
 
         <div className="tags">
-        <h2>
-          Tags
-        </h2>
           <form>
-            <input type="text"></input>
+            <label>
+              tags:
+            </label>
+            <input type="text" name="tags" />
+            <button type="submit">Save</button>
           </form>
         </div>
 
@@ -47,7 +50,7 @@ export default function Home() {
           <h2>
             Code
           </h2>
-          <CodeEditor/>
+          <CodeEditor />
         </div>
 
         <div>
